@@ -1,0 +1,44 @@
+public class IloiloExpenseSystem {
+
+    public static void main(String[] args) {
+
+        double[] expenses = {150.0, 320.5, 200.0, 95.0, 410.0};
+        double limit = 250.0;
+
+        System.out.println("=================================");
+        System.out.println("   ILOILO EXPENSE SCREENING");
+        System.out.println("=================================");
+        System.out.println("Budget Limit: " + limit);
+        System.out.println();
+
+        double total = calculateApprovedTotal(expenses, limit);
+
+        System.out.println("---------------------------------");
+        System.out.println("Total Approved Expenses: " + total);
+        System.out.println("=================================");
+    }
+
+    // Utility method
+    public static double calculateApprovedTotal(double[] data, double maxLimit) {
+
+        double sum = 0;
+
+        System.out.println("Approved Expenses:");
+        for (double value : data) {
+            if (value <= maxLimit) {
+                System.out.println("- " + value);
+                sum += value;
+            }
+        }
+
+        System.out.println();
+        System.out.println("Rejected Expenses:");
+        for (double value : data) {
+            if (value > maxLimit) {
+                System.out.println("- " + value);
+            }
+        }
+
+        return sum;
+    }
+}
