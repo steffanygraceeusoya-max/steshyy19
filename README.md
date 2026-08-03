@@ -1,25 +1,25 @@
-# Iloilo Expense Screening System
+# 🌴 Iloilo Expense Screening System
 
-A simple Java program that demonstrates core programming fundamentals through a real-world budgeting scenario in Iloilo.
+> A simple Java program that demonstrates core programming fundamentals using a budgeting scenario in Iloilo.
 
-## **📌 Overview**
+## 📌 Overview
 
-This project is a lightweight diagnostic application designed to validate foundational Java skills before advancing into more complex data structures.
+This project is a lightweight Java application designed to validate foundational programming skills.  
+It processes a list of expenses and filters them based on a defined budget limit.
 
-It processes a list of expenses and filters them based on a defined budget limit, providing a clear breakdown of approved and rejected values.
+## ⚙️ Features
 
-## **⚙️ Features**
-📊 Stores expense data using arrays
-🔁 Iterates through data using loops
-⚖️ Filters values using conditional statements
-🧩 Uses modular programming (separate methods)
-📋 Displays:
-Approved expenses
-Rejected expenses
-Total approved amount
+- 📊 Uses arrays to store expense data  
+- 🔁 Iterates using loops  
+- ⚖️ Filters values with conditional statements  
+- 🧩 Modular design using methods  
+- 📋 Displays:
+  - Approved expenses  
+  - Rejected expenses  
+  - Total approved expenses  
 
-##  Program Structure
-'''bash
+## 🏗️ Program Structure
+
 IloiloExpenseSystem.java
 │
 ├── main(String[] args)
@@ -59,4 +59,3 @@ Rejected Expenses:
 ---------------------------------
 Total Approved Expenses: 445.0
 =================================
-'''
