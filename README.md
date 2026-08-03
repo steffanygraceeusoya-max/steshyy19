@@ -21,19 +21,18 @@ It processes a list of expenses and filters them based on a defined budget limit
 ## 🏗️ Program Structure
 
 IloiloExpenseSystem.java
-│
-├── main(String[] args)
-│   ├── Initializes data
-│   ├── Calls processing method
-│   └── Displays results
-│
-└── calculateApprovedTotal(double[] data, double maxLimit)
-    ├── Loops through array
-    ├── Applies condition (<= limit)
-    ├── Prints results
-    └── Returns total
-    '''
-    
+
+main(String[] args)
+├── Initialize data
+├── Call processing method
+└── Display results
+
+calculateApprovedTotal(data, limit)
+├── Loop through array
+├── Apply condition
+├── Print results
+└── Return total
+
 # How to Run
 Open OnlineGDB Java Compiler
 Paste the code into the editor
@@ -41,7 +40,7 @@ Click Run
 View output in the console
 
 # 🖥️ Sample Output
-'''bash
+
 =================================
    ILOILO EXPENSE SCREENING
 =================================
