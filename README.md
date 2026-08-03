@@ -1,4 +1,4 @@
-Iloilo Expense Screening System
+**Iloilo Expense Screening System**
 
 A simple Java program that demonstrates core programming fundamentals through a real-world budgeting scenario in Iloilo.
 
@@ -38,7 +38,7 @@ Paste the code into the editor
 Click Run
 View output in the console
 
-## **🖥️ Sample Output**
+🖥️ Sample Output
 =================================
    ILOILO EXPENSE SCREENING
 =================================
