@@ -1,4 +1,4 @@
-**Iloilo Expense Screening System**
+# Iloilo Expense Screening System
 
 A simple Java program that demonstrates core programming fundamentals through a real-world budgeting scenario in Iloilo.
 
@@ -18,7 +18,8 @@ Approved expenses
 Rejected expenses
 Total approved amount
 
-##  **Program Structure**
+##  Program Structure
+'''bash
 IloiloExpenseSystem.java
 │
 ├── main(String[] args)
@@ -31,14 +32,16 @@ IloiloExpenseSystem.java
     ├── Applies condition (<= limit)
     ├── Prints results
     └── Returns total
+    '''
     
-##  **How to Run**
+# How to Run
 Open OnlineGDB Java Compiler
 Paste the code into the editor
 Click Run
 View output in the console
 
-🖥️ Sample Output
+# 🖥️ Sample Output
+'''bash
 =================================
    ILOILO EXPENSE SCREENING
 =================================
@@ -56,3 +59,4 @@ Rejected Expenses:
 ---------------------------------
 Total Approved Expenses: 445.0
 =================================
+'''
