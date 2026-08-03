@@ -33,28 +33,24 @@ calculateApprovedTotal(data, limit)
 ├── Print results
 └── Return total
 
-# How to Run
-Open OnlineGDB Java Compiler
-Paste the code into the editor
-Click Run
-View output in the console
+## 🚀 How to Run
 
-# 🖥️ Sample Output
+1. Open OnlineGDB Java Compiler  
+2. Copy and paste the code  
+3. Click **Run**  
+4. View the output  
 
-=================================
-   ILOILO EXPENSE SCREENING
-=================================
+## 🖥️ Sample Output
+ILOILO EXPENSE SCREENING
 Budget Limit: 250.0
 
 Approved Expenses:
-- 150.0
-- 200.0
-- 95.0
+150.0
+200.0
+95.0
 
 Rejected Expenses:
-- 320.5
-- 410.0
+320.5
+410.0
 
----------------------------------
 Total Approved Expenses: 445.0
-=================================
